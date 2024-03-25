@@ -1,0 +1,6 @@
+res://scene/master_scene/master_scene.tscn
+res://singletons/image_manager.gd
+res://scene/main_screen/main_screen.tscn
+res://assets/fonts/1_label_settings.tres
+res://scene/foint_sprite/front_sprite.tscn
+res://scene/foint_sprite/front_sprite.gd

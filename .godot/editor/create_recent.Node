@@ -1,0 +1,7 @@
+TextureRect
+Control
+HBoxContainer
+Label
+VBoxContainer
+ColorRect
+CanvasLayer
