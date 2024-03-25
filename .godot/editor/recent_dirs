@@ -1,6 +1,7 @@
-res://scene/foint_sprite
-res://assets/fonts
-res://scene/main_screen
 res://singletons
+res://assets/fonts
+res://scene/level_button
+res://scene/foint_sprite
+res://scene/main_screen
 res://scene/master_scene
 res://

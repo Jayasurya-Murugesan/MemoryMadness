@@ -1,7 +1,9 @@
-[gd_scene load_steps=3 format=3 uid="uid://uhp0g4bb61cu"]
+[gd_scene load_steps=5 format=3 uid="uid://uhp0g4bb61cu"]
 
+[ext_resource type="Script" path="res://scene/main_screen/main_screen.gd" id="1_bq4r3"]
 [ext_resource type="LabelSettings" uid="uid://d1xfmecum3358" path="res://assets/fonts/1_label_settings.tres" id="1_itgv5"]
 [ext_resource type="PackedScene" uid="uid://behnghyy4cja8" path="res://scene/foint_sprite/front_sprite.tscn" id="2_eby1a"]
+[ext_resource type="PackedScene" uid="uid://c5qv0qgfrfpqo" path="res://scene/level_button/level_button.tscn" id="2_wnhxx"]
 
 [node name="MainScreen" type="Control"]
 layout_mode = 3
@@ -10,6 +12,8 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_bq4r3")
+level_button_scene = ExtResource("2_wnhxx")
 
 [node name="ColorRect" type="ColorRect" parent="."]
 layout_mode = 1
@@ -46,6 +50,7 @@ size_flags_vertical = 3
 [node name="HBLevels" type="HBoxContainer" parent="VB"]
 layout_mode = 2
 size_flags_horizontal = 4
+theme_override_constants/separation = 8
 
 [node name="Spacer3" type="Control" parent="VB"]
 layout_mode = 2
