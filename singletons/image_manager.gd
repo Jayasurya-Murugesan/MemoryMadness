@@ -1,10 +1,15 @@
 extends Node
  
+const FRAME_IMAGES:Array=[
+	 preload("res://assets/frames/blue_frame.png"), 
+	 preload("res://assets/frames/green_frame.png"), 
+	 preload("res://assets/frames/red_frame.png"), 
+	 preload("res://assets/frames/yellow_frame.png")
+]
 var _item_images: Array=[]
 
 func _ready():
 	load_image()
-
 
 #--- creating a dictionary and adding that to array 
 
@@ -38,9 +43,14 @@ func get_random_item_image()->Dictionary:
 
 
 
+func get_image(index :int )->Dictionary:
+	return  _item_images[index]
 
-
-
+func get_random_frame_images()-> CompressedTexture2D:
+	return FRAME_IMAGES.pick_random()
+	
+func shuffle_image()->void:
+	_item_images.shuffle()
 
 
 

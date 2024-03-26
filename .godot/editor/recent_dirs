@@ -1,5 +1,8 @@
+res://scene/scorer
+res://scene/memory_tile
 res://singletons
 res://assets/fonts
+res://game_screen
 res://scene/level_button
 res://scene/foint_sprite
 res://scene/main_screen

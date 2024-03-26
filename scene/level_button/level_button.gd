@@ -5,7 +5,6 @@ extends TextureButton
 
 var _level_number :int =0
 
-# Called when the node enters the scene tree for the first time.
 func _ready():
 	pass
 	
@@ -17,3 +16,4 @@ func set_level_number(level_num:int)->void:
 
 func _on_pressed():
 	SoundManager.play_button_click(sound)
+	SignalManager.on_level_selected.emit(_level_number)
