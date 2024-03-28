@@ -1,6 +1,9 @@
 extends Control
 @onready var sound = $Sound
 @onready var tile_container = $HBoxContainer/MC1/TileContainer
+@onready var scorer : Scorer= $Scorer
+@onready var moves_label = $HBoxContainer/MC2/VBoxContainer/HB/MovesLabel
+@onready var pairs_label = $HBoxContainer/MC2/VBoxContainer/HB2/PairsLabel
 
 @export var mem_tile_scene:PackedScene 
 # Called when the node enters the scene tree for the first time.
@@ -10,7 +13,8 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	pass
+	moves_label.text = scorer.get_moves_made_str()
+	pairs_label.text = scorer.get_pairs_made_str()
 
 func add_memory_tile(ii_dict:Dictionary, fram_image:CompressedTexture2D)-> void:
 	var new_tile=mem_tile_scene.instantiate()
@@ -27,4 +31,4 @@ func on_level_selected(level_num :int )-> void:
 	tile_container.columns=level_selection.num_cols
 	for ii_dict in level_selection.image_list:
 		add_memory_tile(ii_dict, frame_image)
-
+	scorer.clear_new_game(level_selection.target_pairs)

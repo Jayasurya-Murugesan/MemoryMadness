@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://0chg1jtdk3k"]
+[gd_scene load_steps=10 format=3 uid="uid://0chg1jtdk3k"]
 
 [ext_resource type="LabelSettings" uid="uid://b1ockufg3h30q" path="res://assets/fonts/GM32_Dark.tres" id="1_hj1ga"]
 [ext_resource type="Script" path="res://game_screen/game_screen.gd" id="1_lpg3n"]
@@ -8,6 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://b7xk6ulktrxrb" path="res://assets/ui/green_button00.png" id="4_flepe"]
 [ext_resource type="LabelSettings" uid="uid://c3ejsyjllk7f7" path="res://assets/fonts/level_button.tres" id="5_qua3f"]
 [ext_resource type="PackedScene" uid="uid://cojgup0xhvvxd" path="res://scene/scorer/scorer.tscn" id="8_i46wk"]
+[ext_resource type="PackedScene" uid="uid://b1p7ud1s52d4f" path="res://scene/game_over/game_over.tscn" id="9_8wova"]
 
 [node name="GameScreen" type="Control"]
 layout_mode = 3
@@ -107,5 +108,9 @@ vertical_alignment = 1
 [node name="Sound" type="AudioStreamPlayer" parent="."]
 
 [node name="Scorer" parent="." instance=ExtResource("8_i46wk")]
+
+[node name="GameOver" parent="." instance=ExtResource("9_8wova")]
+visible = false
+layout_mode = 1
 
 [connection signal="pressed" from="HBoxContainer/MC2/VBoxContainer/ExitButton" to="." method="_on_exit_button_pressed"]
