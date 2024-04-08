@@ -3,9 +3,4 @@ res://assets/fonts/GM32_Dark.tres
 res://assets/fonts/level_button.tres
 res://game_screen/game_screen.tscn
 res://scene/memory_tile/memory_tile.tscn
-res://scene/scorer/scorer.gd
-res://game_screen/game_screen.gd
 res://scene/game_over/game_over.tscn
-res://assets/fonts/1_label_settings.tres
-res://scene/game_over/game_over.gd
-res://singletons/signal_manager.gd

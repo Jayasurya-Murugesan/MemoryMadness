@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1711515836
+::res://::1711596291
 icon.png::CompressedTexture2D::1609589485479275634::1711172834::1711172836::1::::<><>::
 ::res://assets/::1711172834
 ::res://assets/fonts/::1711517764
@@ -66,7 +66,7 @@ woodworker_fuser.png::CompressedTexture2D::5499550963068995829::1711172834::1711
 zucchini.png::CompressedTexture2D::4640388342567954650::1711172834::1711172835::1::::<><>::
 ::res://assets/images/::1711172836
 backgroundEmpty.png::CompressedTexture2D::2634943915070020029::1711172834::1711172836::1::::<><>::
-::res://assets/sounds/::1711520961
+::res://assets/sounds/::1711520990
 bgm_action_3.mp3::AudioStreamMP3::7482756682835541186::1711172834::1711520961::1::::<><>::
 bgm_action_4.mp3::AudioStreamMP3::647744052483640627::1711172834::1711520990::1::::<><>::
 sfx_sounds_fanfare3.wav::AudioStreamWAV::6680245519032543610::1711172834::1711172836::1::::<><>::
@@ -90,8 +90,8 @@ game_screen.tscn::PackedScene::51743734133816914::1711520968::0::1::::<><>::uid:
 front_sprite.gd::GDScript::-1::1711347354::0::1::::<>TextureRect<>::
 front_sprite.tscn::PackedScene::2682427144061092389::1711426157::0::1::::<><>::uid://nmsckx2gggb6
 ::res://scene/game_over/::1711520969
-game_over.tscn::PackedScene::4244275142833423075::1711520969::0::1::::<><>::uid://dfr1nywkvk0qr::::res://assets/ui/UIbg.png<>res://scene/game_over/game_over.gd<>uid://0twyhprn7vg4::::res://assets/fonts/LuckiestGuy-Regular.ttf<>uid://b1ockufg3h30q::::res://assets/fonts/GM32_Dark.tres<>uid://xu2v16jgrwnu::::res://assets/ui/blue_button00.png<>uid://bf8usbd3hd662::::res://assets/ui/yellow_button00.png<>uid://b7xk6ulktrxrb::::res://assets/ui/green_button00.png<>uid://c3ejsyjllk7f7::::res://assets/fonts/level_button.tres
 game_over.gd::GDScript::-1::1711520635::0::1::::<>Control<>::
+game_over.tscn::PackedScene::4244275142833423075::1711520969::0::1::::<><>::uid://dfr1nywkvk0qr::::res://assets/ui/UIbg.png<>res://scene/game_over/game_over.gd<>uid://0twyhprn7vg4::::res://assets/fonts/LuckiestGuy-Regular.ttf<>uid://b1ockufg3h30q::::res://assets/fonts/GM32_Dark.tres<>uid://xu2v16jgrwnu::::res://assets/ui/blue_button00.png<>uid://bf8usbd3hd662::::res://assets/ui/yellow_button00.png<>uid://b7xk6ulktrxrb::::res://assets/ui/green_button00.png<>uid://c3ejsyjllk7f7::::res://assets/fonts/level_button.tres
 ::res://scene/level_button/::1711427714
 level_button.gd::GDScript::-1::1711427713::0::1::::<>TextureButton<>::
 level_button.tscn::PackedScene::6912857272180386242::1711427713::0::1::::<><>::uid://cn0lek8ep8t8p
@@ -104,9 +104,9 @@ master_scene.tscn::PackedScene::64573912425192559::1711426157::0::1::::<><>::res
 ::res://scene/memory_tile/::1711520968
 memory_tile.gd::GDScript::-1::1711515075::0::1::::MemoryTile<>TextureButton<>::
 memory_tile.tscn::PackedScene::6491701728133270805::1711520968::0::1::::<><>::uid://80dwet4brglu::::res://assets/frames/hidden_frame_blank.png<>uid://i6c3hdkadkl3::::res://assets/frames/blue_frame.png<>res://scene/memory_tile/memory_tile.gd<>uid://bdc1euhgehgpe::::res://assets/glitch/smoothie.png
-::res://scene/scorer/::1711520968
+::res://scene/scorer/::1711596190
 scorer.gd::GDScript::-1::1711520871::0::1::::Scorer<>Node<>::
-scorer.tscn::PackedScene::5774465423465472285::1711520968::0::1::::<><>::res://scene/scorer/scorer.gd
+scorer.tscn::PackedScene::5774465423465472285::1711596190::0::1::::<><>::res://scene/scorer/scorer.gd
 ::res://singletons/::1711520539
 game_manager.gd::GDScript::-1::1711431587::0::1::::<>Node<>::
 image_manager.gd::GDScript::-1::1711428230::0::1::::<>Node<>::
